@@ -6,3 +6,4 @@ echo "<p>This is test from docker and </p>";
 <p>Welcome to my website</p>
 <p>I updated the permission on docker hub</p>
 <P>Just cd things</P>
+<p>Its cd things</p>

@@ -1,6 +1,5 @@
 services:
   web:
-    build: .
     image: tech2mango/dockeronsed:latest
     container_name: dockeronsed
     ports:
