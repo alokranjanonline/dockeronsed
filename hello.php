@@ -6,4 +6,4 @@ echo "<p>My hostname is: " . gethostname() . "</p>";
 <a href="index.php">Click here to go to index.php</a>
 <p>Welcome to my website</p>
 <p>I updated the permission on docker hub</p>
-<p>Feel free to modify the code and add your own features.</p>
+<p>++++++++++++++.</p>
