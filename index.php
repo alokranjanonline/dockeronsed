@@ -2,7 +2,7 @@
 //phpinfo();
 echo "<p>My php version is: " . phpversion() . "</p>";
 echo "<p>This is test from docker and </p>";
-echo "<p>Welcome to my website</p>";
+echo "<p>Welcome to my website</p>"
 echo "<p>This is a simple PHP script running in a Docker container.</p>";
 echo "<p>You can customize this page to display your own content.</p>";
 echo "<p>Feel free to modify the code and add your own features.</p>";
