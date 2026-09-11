@@ -15,6 +15,7 @@ jobs:
 
       - name: Check PHP syntax
         run: |
+          echo "Checking PHP syntax..."
           find . -type f -name "*.php" -print0 | xargs -0 -n1 php -l
 
       - name: Build Docker image

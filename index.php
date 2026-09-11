@@ -6,6 +6,6 @@ echo "<p>Welcome to my website</p>";
 echo "<p>This is a simple PHP script running in a Docker container.</p>";
 echo "<p>You can customize this page to display your own content.</p>";
 echo "<p>Feel free to modify the code and add your own features.</p>";
-echo "<p>Thank you for visiting!</p>";
+echo "<p>Thank you for visiting!</p>"
 ?>
 <a href="hello.php">Click here to go to hello.php</a>
