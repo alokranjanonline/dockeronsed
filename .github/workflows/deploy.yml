@@ -6,17 +6,16 @@ on:
       - main
 
 jobs:
-
   test:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Check PHP syntax
-        run: php -l index.php
+        run: |
+          find . -type f -name "*.php" -print0 | xargs -0 -n1 php -l
 
       - name: Build Docker image
         run: docker build -t dockeronsed .
