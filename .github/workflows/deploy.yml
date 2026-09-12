@@ -63,7 +63,8 @@ jobs:
             docker run -d \
               --name dockeronsed \
               --restart unless-stopped \
-              -p 80:80 \
+              -p 5050:80 \
+            #  -p 127.0.0.1:5050:80
               ${{ secrets.DOCKER_USERNAME }}/dockeronsed:latest
 
             # Clean up old images
