@@ -12,4 +12,4 @@ echo "<p>My server software is: " . $_SERVER['SERVER_SOFTWARE'] . "</p>";
 echo "<p>My server name is: " . $_SERVER['SERVER_NAME'] . "</p>";
 ?>
 <a href="hello.php">Click here to go to hello.php</a>
-<p>Welcome to my website</p>
+<p>Welcome to my website</p><p>I updated the permission on docker hub</p>
