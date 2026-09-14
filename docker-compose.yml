@@ -7,3 +7,20 @@ services:
     volumes:
       - .:/var/www/html
     restart: unless-stopped
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: test
+      MYSQL_USER: testuser
+      MYSQL_PASSWORD: testpassword
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+
+  volumes:
+    mysql_data:
