@@ -9,5 +9,6 @@ echo "<p>Feel free to modify the code and add your own features.</p>";
 echo "<p>Thank you for visiting!</p>";
 echo "<p>My hostname is: " . gethostname() . "</p>";
 echo "<p>My server software is: " . $_SERVER['SERVER_SOFTWARE'] . "</p>";
+echo "<p>My server name is: " . $_SERVER['SERVER_NAME'] . "</p>";
 ?>
 <a href="hello.php">Click here to go to hello.php</a>

@@ -59,11 +59,10 @@ jobs:
             docker rm dockeronsed || true
 
             # Run the new container
-            # ⚠️ Change the port if needed (example: -p 80:80 or -p 8080:80)
             docker run -d \
               --name dockeronsed \
               --restart unless-stopped \
-              -p 5050:80 \
+              -p 5055:80 \
               ${{ secrets.DOCKER_USERNAME }}/dockeronsed:83e699b274d0
 
             # Clean up old images
