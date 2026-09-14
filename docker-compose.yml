@@ -10,6 +10,7 @@ services:
 
   mysql:
     image: mysql:8
+    hostname: mysql
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: test

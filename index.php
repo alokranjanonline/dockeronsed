@@ -14,10 +14,10 @@ echo "<p>My server name is: " . $_SERVER['SERVER_NAME'] . "</p>";
 <a href="hello.php">Click here to go to hello.php</a>
 <p>Welcome to my website</p><p>I updated the permission on docker hub</p>
 <?php
-$databaseHost = 'localhost';
-$databaseName = 'test';
-$databaseUsername = 'testuser';
-$databasePassword = 'testpassword';
+$databaseHost = "mysql";
+$databaseUsername = "testuser";
+$databasePassword = "testpassword";
+$databaseName = "test";
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 if (!$mysqli) { 
     die("Connection failed: " . mysqli_connect_error());
