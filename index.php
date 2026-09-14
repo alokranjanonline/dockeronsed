@@ -1,5 +1,5 @@
 <?php
-//phpinfo();
+phpinfo();
 echo "<p>My php version is: " . phpversion() . "</p>";
 echo "<p>This is test from docker and </p>";
 echo "<p>Welcome to my website</p>";
