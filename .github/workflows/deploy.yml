@@ -28,12 +28,12 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ${{ secrets.DOCKER_USERNAME }}/dockeronsed:latest .
+            -t ${{ secrets.DOCKER_USERNAME }}/dockeronsed:83e699b274d0 .
 
       - name: Push Docker image
         run: |
           docker push \
-            ${{ secrets.DOCKER_USERNAME }}/dockeronsed:latest
+            ${{ secrets.DOCKER_USERNAME }}/dockeronsed:83e699b274d0
 
   deploy:
     name: Deploy to GoDaddy VPS

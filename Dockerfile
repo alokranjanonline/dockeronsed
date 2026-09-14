@@ -1,9 +1,3 @@
-#FROM php:8.3-apache
-
-#COPY . /var/www/html/
-
-#EXPOSE 80
-
 FROM php:8.3-apache
 
 RUN a2enmod rewrite
