@@ -16,8 +16,8 @@ echo "<p>My server name is: " . $_SERVER['SERVER_NAME'] . "</p>";
 <?php
 $databaseHost = 'localhost';
 $databaseName = 'test';
-$databaseUsername = 'root';
-$databasePassword = '';
+$databaseUsername = 'testuser';
+$databasePassword = 'testpassword';
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 if (!$mysqli) { 
     die("Connection failed: " . mysqli_connect_error());
